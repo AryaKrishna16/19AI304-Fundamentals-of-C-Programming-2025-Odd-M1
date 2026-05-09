@@ -26,6 +26,9 @@ To build a C program that prints integer, float,character, and string literals o
 ### Step 4: 
    Stop
 # Program:
+#include <stdio.h>
+
+int main() {
 ```
 int intLiteral = 100;
 
@@ -45,6 +48,7 @@ printf("String Literal: %s\n", stringLiteral);
 
 return 0;
 ```
+}
 # Output:
 <img width="1893" height="442" alt="Screenshot 2026-05-09 125033" src="https://github.com/user-attachments/assets/9afdbbc5-ea6b-448f-aef1-ba3b2697aa1e" />
 
@@ -78,6 +82,11 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 6:  
   Stop
 # Program:
+#include <stdio.h>
+
+#define PI 3.14159
+
+int main() {
 ```
 const int AGE = 20;
 
@@ -87,6 +96,7 @@ printf("Constant Variable AGE: %d\n", AGE);
 
 return 0;
 ```
+}
 # Output:
 <img width="1009" height="303" alt="Screenshot 2026-05-09 125055" src="https://github.com/user-attachments/assets/0da6938a-f7c2-410d-b71b-0423e074bf0c" />
 
@@ -113,6 +123,9 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 5:    
    Stop
 # Program:
+#include <stdio.h>
+
+int main() {
 ```
 int num = 25;   
 
@@ -132,6 +145,7 @@ printf("Character value: %c\n", grade);
 
 return 0;
 ```
+}
 # Output:
 <img width="998" height="324" alt="Screenshot 2026-05-09 125105" src="https://github.com/user-attachments/assets/5e887bcf-d5e0-4f27-b2fd-a2991b05e220" />
 
@@ -173,6 +187,9 @@ return 0;
 ### Step 8:   
   Stop
 # Program:
+#include <stdio.h>
+
+int main() {
 ```
 int a, b;
 
@@ -219,6 +236,7 @@ printf("NOT (~b): %d\n", ~b);
 
 return 0;
 ```
+}
 # Output:
 <img width="999" height="822" alt="Screenshot 2026-05-09 125119" src="https://github.com/user-attachments/assets/bc555819-2dab-496b-bb84-342a020151be" />
 
@@ -266,6 +284,9 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+#include <stdio.h>
+
+int main() {
 ```
 char ch;
 
@@ -297,6 +318,7 @@ scanf("%c", &ch);
     
 return 0;
 ```
+}
 # Output:
 <img width="986" height="284" alt="Screenshot 2026-05-09 125129" src="https://github.com/user-attachments/assets/b100f74e-b20e-4e79-b3ca-02c76ec12de7" />
 
